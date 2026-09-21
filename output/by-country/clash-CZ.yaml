@@ -5,17 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 188.114.97.6
-  port: 8080
-  udp: true
-  type: vless
-  uuid: b9ede7a5-5b4b-4aee-ac37-2c307e587e47
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidVkzQm1ROUg4dyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: courses.mftplus.qzz.io
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
   server: 95.85.230.35
   port: 443
   udp: true
@@ -33,13 +22,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
-  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 rules:
 - MATCH,PROXIES
