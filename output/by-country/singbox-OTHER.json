@@ -6,19 +6,14 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.67.148.26",
-      "server_port": 443,
-      "uuid": "95de071f-747c-dc07-36ac-5c0854a9e50e",
-      "tls": {
-        "enabled": true,
-        "server_name": "restless-boat-ebf2.moha102030.workers.dev",
-        "insecure": false
-      },
+      "server": "104.27.88.172",
+      "server_port": 80,
+      "uuid": "50414e45-4c5f-5a45-5553-52108a2d5224",
       "transport": {
         "type": "ws",
-        "path": "/syncfp=chrome",
+        "path": "/api/ws",
         "headers": {
-          "Host": "restless-boat-ebf2.moha102030.workers.dev"
+          "Host": "web-app-nr6wpa.app-tp57xz.workers.dev"
         }
       }
     },

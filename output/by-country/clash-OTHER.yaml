@@ -5,19 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.67.148.26
-  port: 443
+  server: 104.27.88.172
+  port: 80
   udp: true
   type: vless
-  uuid: 95de071f-747c-dc07-36ac-5c0854a9e50e
-  tls: true
-  servername: restless-boat-ebf2.moha102030.workers.dev
-  skip-cert-verify: false
+  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
   network: ws
   ws-opts:
-    path: /syncfp=chrome
+    path: /api/ws
     headers:
-      Host: restless-boat-ebf2.moha102030.workers.dev
+      Host: web-app-nr6wpa.app-tp57xz.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
