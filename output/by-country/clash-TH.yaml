@@ -38,9 +38,9 @@ proxies:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
     short-id: ca672c53fbbac555
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇹🇭 泰国 (Thailand) 04 - xiaohe
-  server: 104.16.111.193
+  server: 162.159.192.125
   port: 443
   udp: true
   type: vless

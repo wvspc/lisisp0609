@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "188.114.98.134",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.18.15.103",
       "server_port": 443,
-      "uuid": "ba49d874-fe02-465d-82d3-ed981dc7694f",
+      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
       "tls": {
         "enabled": true,
-        "server_name": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev",
+        "server_name": "server9.9966338.xyz",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,25 +20,22 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/yraL4HRbwB8cMc0F?ed=2560",
+        "path": "/imnotarealherox",
         "headers": {
-          "Host": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev"
+          "Host": "server9.9966338.xyz"
         }
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "104.17.147.22",
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
+      "server": "104.18.14.103",
       "server_port": 443,
-      "password": "Telegram_healer_config",
+      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
       "tls": {
         "enabled": true,
-        "server_name": "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev",
+        "server_name": "server9.9966338.xyz",
         "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -46,9 +43,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/tr/mPZ7O1CUbIBPGNPZQ2HeV?ed=2560",
+        "path": "/imnotarealherox",
         "headers": {
-          "Host": "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
+          "Host": "server9.9966338.xyz"
         }
       }
     },
@@ -57,16 +54,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe",
+        "🌐 其他地区 (Other) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe",
+        "🌐 其他地区 (Other) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
