@@ -5,18 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  server: clhkzzzdbgwxxndnlm.cfooov.xyz
-  port: 61205
+  server: 49.254.204.134
+  port: 1774
   udp: true
-  type: vless
-  uuid: 55848813-689e-4a39-82cf-00748cbc7289
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: PhXLfJ4s8EPauWaeRpzAjSuZibhmMiZFEMr8h8qU6iI
-    short-id: d1f38c0f15ed22
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
 proxy-groups:
 - name: PROXIES
   type: select
