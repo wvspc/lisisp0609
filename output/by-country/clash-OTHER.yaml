@@ -5,21 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: www.shopify.com
+  server: 104.18.15.103
   port: 443
   udp: true
-  type: vmess
-  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   tls: true
-  servername: yoga-suggesting-recording-calls.trycloudflare.com
+  servername: server9.9966338.xyz
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
+    path: /imnotarealherox
     headers:
-      Host: yoga-suggesting-recording-calls.trycloudflare.com
+      Host: server9.9966338.xyz
 proxy-groups:
 - name: PROXIES
   type: select
