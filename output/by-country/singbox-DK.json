@@ -4,8 +4,16 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "🇩🇰 丹麦 (Denmark) 01 - xiaohe",
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16305,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇰 丹麦 (Denmark) 02 - xiaohe",
       "server": "38.180.214.110",
       "server_port": 5600,
       "method": "aes-256-gcm",
@@ -16,14 +24,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
+        "🇩🇰 丹麦 (Denmark) 01 - xiaohe",
+        "🇩🇰 丹麦 (Denmark) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
+        "🇩🇰 丹麦 (Denmark) 01 - xiaohe",
+        "🇩🇰 丹麦 (Denmark) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
