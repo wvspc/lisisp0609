@@ -1,0 +1,46 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇨🇿 捷克 (Czech) 01 - xiaohe
+  server: 188.114.97.8
+  port: 443
+  udp: true
+  type: vless
+  uuid: eb24c3b4-7936-45e2-a253-e54fd1955a7f
+  tls: true
+  servername: c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /vl/6NGHNFKsvK41KeQo?ed=2560
+    headers:
+      Host: c0yr9j09y2l9g0td8wa5.2whbrirhjgslm43zjcqei.workers.dev
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 194.87.59.26
+  port: 2085
+  udp: true
+  type: vless
+  uuid: 720814fb-e38e-4570-97a7-c5df60352d37
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
+rules:
+- MATCH,PROXIES
