@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.15.103",
-      "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
+      "server": "129.151.64.169",
+      "server_port": 31867,
+      "uuid": "d03af339-e245-4709-9bec-57a5e2d502ea",
       "tls": {
         "enabled": true,
-        "server_name": "server9.9966338.xyz",
+        "server_name": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/imnotarealherox",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "server9.9966338.xyz"
+          "Host": "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
