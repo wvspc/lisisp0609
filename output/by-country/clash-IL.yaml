@@ -29,7 +29,7 @@ proxies:
     public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
     short-id: a3a578ab
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇮🇱 以色列 (Israel) 03 - xiaohe
   server: 31.57.185.82
   port: 41770
@@ -51,18 +51,13 @@ proxies:
   servername: de2.dzvn.space
   client-fingerprint: firefox
 - name: 🇮🇱 以色列 (Israel) 05 - xiaohe
-  server: arcturus.yokkastars.com
-  port: 40443
+  server: 129.159.156.109
+  port: 50160
   udp: true
-  type: vless
-  uuid: bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: w4AYHvQnQS6olDqoG9ptLOtgehaWOsv9HQhDax5bLA4
-    short-id: db46e2946fc466fd
-  servername: deepl.com
-  client-fingerprint: qq
+  type: hysteria2
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  sni: www.bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
