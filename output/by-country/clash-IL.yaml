@@ -29,27 +29,22 @@ proxies:
     public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
     short-id: a3a578ab
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇮🇱 以色列 (Israel) 03 - xiaohe
-  server: nl-irancell3.xelfona.ir
-  port: 49548
+  server: 31.57.185.82
+  port: 23114
   udp: true
   type: ss
   cipher: 2022-blake3-aes-256-gcm
-  password: zZ+k8UwdTQ9ZTnxEodTN2YI6KrFKEAcBWgCbLZIVUTE=:LbWEdFyjKcvZcv9agyGttSn0HNap+ecf50/UrlGMBCQ=
+  password: vS/2+E2vOG1C68QgmugNLDAxJqtGQeIJVI8lUu20n9Y=
 - name: 🇮🇱 以色列 (Israel) 04 - xiaohe
-  server: 193.169.229.145
-  port: 443
+  server: 129.159.156.109
+  port: 50160
   udp: true
-  type: vless
-  uuid: 46b3a70b-b99f-4c6e-aa83-df6d842bb954
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: 2CwgJn1lc23uxQjAdGphQl4SSRmd1amunSpYXxgCgCM
-    short-id: 7e13fde9
-  servername: isr.vpnskyline.com
-  client-fingerprint: chrome
+  type: hysteria2
+  password: f25f19f29ce3fb53a35bf1b35b452a43
+  sni: www.bing.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
